@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController { 
   @GetMapping("/")
   public String index() {
-      System.out.println("HelloWorldController-hello!!!");
+      System.out.println("HelloWorldController-Hello!!!!!!");
     return "Greetings from Spring Boot!";
   }
  
