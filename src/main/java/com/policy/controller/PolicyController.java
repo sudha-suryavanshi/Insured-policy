@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-public class HelloWorldController { 
+public class PolicyController { 
   @GetMapping("/")
   public String index() {
-      System.out.println("HelloWorldController-Hello!!!!!!");
+      System.out.println("PolicyController!!!!");
     return "Greetings from Spring Boot!";
   }
  
